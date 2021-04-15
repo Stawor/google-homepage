@@ -1,0 +1,76 @@
+
+.topnav {
+    display: flex;
+    justify-content: flex-end;
+    
+
+
+}
+.signin {
+    background-color: #1a73e8;
+    color: white;
+    padding: 9px 30px;
+    text-align: center;
+    border-radius: 6px;
+    margin: 10px;
+    text-decoration: none; 
+    min-width: 80px;
+    
+}
+a {
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+.signin:hover {
+    background-color: hsl(214, 82%, 63%);
+    cursor:pointer;
+}
+a:hover {
+    text-decoration: underline;
+}
+ul {
+    list-style: none;
+}
+li{
+    display: inline;
+    
+}
+#middle {
+    margin-top: 100px;
+
+}
+#logo {
+    display: flex;
+    justify-content: center;
+}
+#searchbar {
+    display: flex;
+    justify-content: center;
+    
+
+}
+input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width: 500px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(166, 181, 221);
+}
+#buttons {
+    display: flex;
+    justify-content: center;
+    
+    
+   
+}
+.searchbutt {
+   margin-left: 10px;
+   margin-right: 10px;
+   padding: 10px 20px;
+   border: #a3c0e7
+    
+    
+}
